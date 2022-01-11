@@ -9,7 +9,7 @@ export default function Share() {
                 <div className = 'shareTop'>
                     <img className = "shareProfileImg" src = "/assets/person/chadmichaels.jpeg" alt = "" />
                     <input 
-                    placeholder = 'What on your mind queen?' 
+                    placeholder = "What's on your mind queen?"
                     className = 'shareInput'
                     />
                 </div>
@@ -33,6 +33,7 @@ export default function Share() {
                             <span className = "shareOptionText">How You Feeling Momma?</span>
                         </div>
                     </div>
+                    <button className = "shareButton">Share</button>
                 </div>
             </div>
         </div>
