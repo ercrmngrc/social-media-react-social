@@ -18,10 +18,10 @@ export default function Share() {
                     <div className= "shareOptions">
                         <div className = "shareOption">
                             <PermMedia htmlColor = "royalblue" className = "shareIcon"/>
-                            <span className = "shareOptionText">Mug Shot or Sex Tape</span>
+                            <span className = "shareOptionText">Photo or Video</span>
                         </div>
                         <div className = "shareOption">
-                            <Label htmlColor = "forestgreen" className = "shareIcon"/>
+                            <Label htmlColor = "mediumseagreen" className = "shareIcon"/>
                             <span className = "shareOptionText">Tag a Bitch</span>
                         </div>
                         <div className = "shareOption">
@@ -29,8 +29,8 @@ export default function Share() {
                             <span className = "shareOptionText">Where you at?</span>
                         </div>
                         <div className = "shareOption">
-                            <EmojiEmotions htmlColor = "gold" className = "shareIcon"/>
-                            <span className = "shareOptionText">How You Feeling Momma?</span>
+                            <EmojiEmotions htmlColor = "fuchsia" className = "shareIcon"/>
+                            <span className = "shareOptionText">Rumojis</span>
                         </div>
                     </div>
                     <button className = "shareButton">Share</button>

@@ -8,39 +8,39 @@ export default function Leftbar() {
             <div className = 'leftbarWrapper'>
                 <ul className = "leftbarList">
                     <li className = 'leftbarListItem'>
-                        <RssFeed className = 'leftbarIcon'/>
+                        <RssFeed htmlColor = "mediumslateblue" className = 'leftbarIcon'/>
                         <span className = 'leftbarListItemText'>Feed</span>
                     </li>
                     <li className = 'leftbarListItem'>
-                        <Chat className = 'leftbarIcon'/>
+                        <Chat htmlColor = "mediumslateblue" className = 'leftbarIcon'/>
                         <span className = 'leftbarListItemText'>Chats</span>
                     </li>
                     <li className = 'leftbarListItem'>
-                        <PlayCircleOutline className = 'leftbarIcon'/>
+                        <PlayCircleOutline htmlColor = "mediumslateblue" className = 'leftbarIcon'/>
                         <span className = 'leftbarListItemText'>Videos</span>
                     </li>
                     <li className = 'leftbarListItem'>
-                        <People className = 'leftbarIcon'/>
+                        <People htmlColor = "mediumslateblue" className = 'leftbarIcon'/>
                         <span className = 'leftbarListItemText'>Groups</span>
                     </li>
                     <li className = 'leftbarListItem'>
-                        <Bookmark className = 'leftbarIcon'/>
+                        <Bookmark htmlColor = "mediumslateblue" className = 'leftbarIcon'/>
                         <span className = 'leftbarListItemText'>Bookmarks</span>
                     </li>
                     <li className = 'leftbarListItem'>
-                        <HelpOutline className = 'leftbarIcon'/>
+                        <HelpOutline htmlColor = "mediumslateblue" className = 'leftbarIcon'/>
                         <span className = 'leftbarListItemText'>Questions</span>
                     </li>
                     <li className = 'leftbarListItem'>
-                        <WorkOutline className = 'leftbarIcon'/>
+                        <WorkOutline htmlColor = "mediumslateblue" className = 'leftbarIcon'/>
                         <span className = 'leftbarListItemText'>Jobs</span>
                     </li>
                     <li className = 'leftbarListItem'>
-                        <Event className = 'leftbarIcon'/>
+                        <Event htmlColor = "mediumslateblue" className = 'leftbarIcon'/>
                         <span className = 'leftbarListItemText'>Events</span>
                     </li>
                     <li className = 'leftbarListItem'>
-                        <School className = 'leftbarIcon'/>
+                        <School htmlColor = "mediumslateblue" className = 'leftbarIcon'/>
                         <span className = 'leftbarListItemText'>Courses</span>
                     </li>
                 </ul>
