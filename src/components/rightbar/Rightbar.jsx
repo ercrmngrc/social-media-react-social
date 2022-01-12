@@ -8,7 +8,7 @@ export default function Rightbar() {
                 <div className = "birthdayContainer">
                     <img className = "birthdayImg" src = "assets/gift.png" alt = "" />
                     <span className = 'birthdayText'>
-                        <b>Zohan</b> and <b>2 other friends</b> have a birthday today.
+                        <b>Detox</b> and <b>2 other friends</b> have a birthday today.
                     </span>
                 </div>
                 <img className = "rightbarAd" src = "assets/ad.jpeg" alt = "" />
