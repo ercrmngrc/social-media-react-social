@@ -37,7 +37,7 @@ export const Users = [
     {
         id: 8,
         profilePicture: "assets/person/alaska.jpeg",
-        username: "Alaska Thunderfuck 300",
+        username: "Alaska Thunderfuck 3000",
     },
     {
         id: 9,
@@ -75,7 +75,7 @@ export const Posts = [
         desc: "Lenin in the streets, Dostoyevsky in the sheets",
         photo: "assets/post/three.jpeg",
         date: "18 minutes ago",
-        userId: 1,
+        userId: 3,
         like: 47,
         comment: 9,
     },
@@ -117,7 +117,6 @@ export const Posts = [
     },
     {
         id: 8,
-        desc: "Cause you're gonna see me hangin' in the hall of fame!",
         photo: "assets/post/eight.jpeg",
         date: "1 hour ago",
         userId: 8,
@@ -126,7 +125,6 @@ export const Posts = [
     },
     {
         id: 9,
-        desc: "You probably heard we ain't in the prisoner-takin' business; we in the killin' Nazi business. And cousin, business is a-boomin'",
         photo: "assets/post/nine.jpeg",
         date: "1 hour ago",
         userId: 9,
