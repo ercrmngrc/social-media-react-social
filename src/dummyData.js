@@ -1,52 +1,52 @@
 export const Users = [
     {
         id: 1,
-        profilePicture: "assets/person/chadmichaels.jpeg",
+        profilePicture: "person/chadmichaels.jpeg",
         username: "Chad Michaels",
     },
     {
         id: 2,
-        profilePicture: "assets/person/alyssaedwards.jpeg",
+        profilePicture: "person/alyssaedwards.jpeg",
         username: "Alyssa Edwards",
     },
     {
         id: 3,
-        profilePicture: "assets/person/katya.jpeg",
+        profilePicture: "person/katya.jpeg",
         username: "Katy Zamolodchikova",
     },
     {
         id: 4,
-        profilePicture: "assets/person/adoredelano.jpeg",
+        profilePicture: "person/adoredelano.jpeg",
         username: "Adore Delano",
     },
     {
         id: 5,
-        profilePicture: "assets/person/zohan.jpeg",
+        profilePicture: "person/zohan.jpeg",
         username: "Scrappy Coco",
     },
     {
         id: 6,
-        profilePicture: "assets/person/detox.jpeg",
+        profilePicture: "person/detox.jpeg",
         username: "Detox",
     },
     {
         id: 7,
-        profilePicture: "assets/person/latriceroyale.jpeg",
+        profilePicture: "person/latriceroyale.jpeg",
         username: "Latrice Royale",
     },
     {
         id: 8,
-        profilePicture: "assets/person/alaska.jpeg",
+        profilePicture: "person/alaska.jpeg",
         username: "Alaska Thunderfuck 3000",
     },
     {
         id: 9,
-        profilePicture: "assets/person/bradpitt.jpeg",
+        profilePicture: "person/bradpitt.jpeg",
         username: "William Bradley Pitt",
     },
     {
         id: 10,
-        profilePicture: "assets/person/shangela.jpeg",
+        profilePicture: "person/shangela.jpeg",
         username: "Shangela Laquifa Wadley",
     },
 ];
@@ -55,7 +55,7 @@ export const Posts = [
     {
         id: 1,
         desc: "I'm Cher BITCH!",
-        photo: "assets/post/one.jpeg",
+        photo: "post/one.jpeg",
         date: "2 minutes ago",
         userId: 1,
         like: 9,
@@ -64,7 +64,7 @@ export const Posts = [
     {
         id: 2,
         desc: "I don't get cute, I get drop dead gorgeous",
-        photo: "assets/post/two.jpeg",
+        photo: "post/two.jpeg",
         date: "9 minutes ago",
         userId: 2,
         like: 18,
@@ -73,7 +73,7 @@ export const Posts = [
     {
         id: 3,
         desc: "Lenin in the streets, Dostoyevsky in the sheets",
-        photo: "assets/post/three.jpeg",
+        photo: "post/three.jpeg",
         date: "18 minutes ago",
         userId: 3,
         like: 47,
@@ -82,7 +82,7 @@ export const Posts = [
     {
         id: 4,
         desc: "I'm fucking hood, I'm from Azusa I'll stab a bitch",
-        photo: "assets/post/four.jpeg",
+        photo: "post/four.jpeg",
         date: "36 minutes ago",
         userId: 4,
         like: 69,
@@ -91,7 +91,7 @@ export const Posts = [
     {
         id: 5,
         desc: "I just want to make hair silky-smooth",
-        photo: "assets/post/five.jpeg",
+        photo: "post/five.jpeg",
         date: "47 minutes ago",
         userId: 5,
         like: 74,
@@ -100,7 +100,7 @@ export const Posts = [
     {
         id: 6,
         desc: "Detox comin' at you with the slow verse",
-        photo: "assets/post/six.jpeg",
+        photo: "post/six.jpeg",
         date: "1 hour ago",
         userId: 6,
         like: 92,
@@ -125,7 +125,7 @@ export const Posts = [
     },
     {
         id: 9,
-        photo: "assets/post/nine.jpeg",
+        photo: "post/nine.jpeg",
         date: "1 hour ago",
         userId: 9,
         like: 147,
@@ -134,7 +134,7 @@ export const Posts = [
     {
         id: 10,
         desc: "Halleloo!",
-        photo: "assets/post/ten.jpeg",
+        photo: "post/ten.jpeg",
         date: "2 hours ago",
         userId: 10,
         like: 189,

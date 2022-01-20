@@ -5,6 +5,8 @@ import Online from "../online/Online";
 
 export default function Rightbar({profile}) {
     
+    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+
     const HomeRightbar = () => {
         return  (
             <>
@@ -50,28 +52,28 @@ export default function Rightbar({profile}) {
                 <h4 className = 'rightbarTitle'>User friends</h4>
                 <div className = "rightbarFollowings">
                     <div className = "rightbarFollowing">
-                        <img className = "rightbarFollowingImg" src = "assets/person/chadmichaels.jpeg" alt = "" />
-                        <span className = 'rightbarFollowingName'>Chad Michaels</span>
+                        <img className = "rightbarFollowingImg" src = {`${PF}person/detox.jpeg`} alt = "" />
+                        <span className = 'rightbarFollowingName'>Detox</span>
                     </div>
                     <div className = "rightbarFollowing">
-                        <img className = "rightbarFollowingImg" src = "assets/person/adoredelano.jpeg" alt = "" />
-                        <span className = 'rightbarFollowingName'>Chad Michaels</span>
+                        <img className = "rightbarFollowingImg" src = {`${PF}person/zohan.jpeg`} alt = "" />
+                        <span className = 'rightbarFollowingName'>Scrappy Coco</span>
                     </div>
                     <div className = "rightbarFollowing">
-                        <img className = "rightbarFollowingImg" src = "assets/person/alyssaedwards.jpeg" alt = "" />
-                        <span className = 'rightbarFollowingName'>Chad Michaels</span>
+                        <img className = "rightbarFollowingImg" src = {`${PF}person/alyssaedwards.jpeg`} alt = "" />
+                        <span className = 'rightbarFollowingName'>Alyssa Edwards</span>
                     </div>
                     <div className = "rightbarFollowing">
-                        <img className = "rightbarFollowingImg" src = "assets/person/latriceroyale.jpeg" alt = "" />
-                        <span className = 'rightbarFollowingName'>Chad Michaels</span>
+                        <img className = "rightbarFollowingImg" src = {`${PF}person/adoredelano.jpeg`} alt = "" />
+                        <span className = 'rightbarFollowingName'>Adore Delano</span>
                     </div>
                     <div className = "rightbarFollowing">
-                        <img className = "rightbarFollowingImg" src = "assets/person/katya.jpeg" alt = "" />
-                        <span className = 'rightbarFollowingName'>Chad Michaels</span>
+                        <img className = "rightbarFollowingImg" src = {`${PF}person/latriceroyale.jpeg`} alt = "" />
+                        <span className = 'rightbarFollowingName'>Latrice Royale</span>
                     </div>
                     <div className = "rightbarFollowing">
-                        <img className = "rightbarFollowingImg" src = "assets/person/detox.jpeg" alt = "" />
-                        <span className = 'rightbarFollowingName'>Chad Michaels</span>
+                        <img className = "rightbarFollowingImg" src = {`${PF}person/katya.jpeg`} alt = "" />
+                        <span className = 'rightbarFollowingName'>Katya Zamalodchikova</span>
                     </div>
                 </div>
             </>
